@@ -1,0 +1,48 @@
+body {
+    font-family: monospace;
+    background-color: #fff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  #container {
+    width: 80%;
+    height: 80%;
+    padding: 20px;
+    background-color: black;
+    border-top: 30px solid gray;
+    position: relative;
+  }
+  #closebtn{
+   position: absolute;
+   top: -29px;
+   right: 1px;
+   width: 30px;
+   height: 29px;
+   font-size: 16px;
+   text-align: center;
+   line-height: 30px;
+   cursor: pointer;
+  }
+  #closebtn:hover {
+    background-color: #c41919; 
+}
+
+  #input-line {
+    display: flex;
+  }
+  
+  #input-line::before {
+    content: "$ ";
+  }
+  #commandInput{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: monospace;
+    font-size: 16px;
+    outline: none;
+    width: 100%;
+  }
